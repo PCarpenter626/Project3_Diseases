@@ -1,0 +1,33 @@
+i didnt hide my api keys for openaq.org
+you may use it for testing purposes.
+you need to create .env file to store your credentials to safely retrieve.
+this example is not fully functioning as it is just a sample i made over a year ago; but it should give you idea.
+
+
+@app.route("/")  renders index.html, which sources ` src="static/js/script.js" ` 
+and that has the plotly code, just like we had in the lectures.
+
+
+
+............................
+
+
+# create virtual environment
+python -m venv venv
+
+    # activating on windows 
+    source venv/Scripts/activate
+
+    # activating on mac
+    source venv/bin/activate
+
+# install dependencies
+pip install -r requirements.txt
+
+
+# populating db
+python create_db.py      # might take a while
+
+
+# run
+python app.py

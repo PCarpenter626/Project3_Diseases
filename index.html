@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Disease Dashboard</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Patient Disease Dashboard</h1>
+        </header>
+
+        <div class="dashboard-description">
+            <p>This dashboard displays patient information.</p>
+        </div>
+
+        <div class="dashboard-controls">
+            <div class="filter-controls">
+                <!-- Country filter dropdown with explicit styling -->
+                <div class="select-wrapper">
+                    <label for="genderFilter">Gender:</label>
+                    <select id="genderFilter" aria-label="Select Gender" style="display: inline-block; width: 200px; padding: 8px; margin-right: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                        <option value="All" selected>All</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                
+                <select id="diseaseLimit" aria-label="Number of Diseases to Display">
+                    <option value="5">Show Top 5</option>
+                    <option value="10" selected>Show 10</option>
+                    <option value="15">Show Top 15</option>
+                    <option value="20">Show Top 20</option>
+                    <option value="50">Show Top 50</option>
+                </select>
+                
+                <button id="refreshData"><i class="fas fa-sync-alt"></i> Refresh Data</button>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <div id="plotly-graph" style="height: 500px;"></div>
+            <div id="loading-indicator" class="loading" style="display: none;">
+                <p>Loading data...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css">
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
