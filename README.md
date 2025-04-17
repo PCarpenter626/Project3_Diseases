@@ -5,5 +5,4 @@ The apparatus used is the dashboard for monitoring all outcome-based variables h
 Reference used Kaggle data set (diesease)
 Reference  Bayer.com  https://www.bayer.com/en/us/news-stories/impact-of-socioeconomic-factors-on-health-outcomes-and-importance-of-self-care
 The graphs below shows the median age of levels of cholesterol take into consideration the assesment tool we offer categerizes the top ten disorders that arise within the general population.
-Reference graph data from Kaggle diesease_set ![image](https://github.com/user-attachments/assets/27b9f211-2a92-4b06-b5ec-47e1fb9ab307)
-
+Reference graph data from Kaggle diesease_set shows patients labeled as: Young Adulthood 19-40 years of age, Middle Age 41-64 years of age, and Senior Citizens 65-90 years of age.The graph below shows patients with coughing disorders.
