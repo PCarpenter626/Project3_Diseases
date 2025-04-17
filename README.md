@@ -5,5 +5,5 @@ The apparatus used is the dashboard for monitoring all outcome-based variables h
 Reference used Kaggle data set (diesease)
 Reference  Bayer.com  https://www.bayer.com/en/us/news-stories/impact-of-socioeconomic-factors-on-health-outcomes-and-importance-of-self-care
 The graphs below shows the median age of levels of cholesterol take into consideration the assesment tool we offer categerizes the top ten disorders that arise within the general population.
-Reference  data from Kaggle diesease_set ![image](https://github.com/user-attachments/assets/7888a30f-eaf1-43e7-9936-9469ece212eb)
+Reference graph data from Kaggle diesease_set ![image](https://github.com/user-attachments/assets/27b9f211-2a92-4b06-b5ec-47e1fb9ab307)
 
